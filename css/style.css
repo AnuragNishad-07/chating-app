@@ -47,4 +47,24 @@ height: 34px;
 cursor: pointer;
 border: 2px solid ☐ black;
 border-radius: 6px;
+
 height: 34px;}
+h1{
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+
+.message{
+  background-color: rgb(226, 229, 231);
+  width: auto;
+}
+#messageInp{
+  width: 82%;
+}
+}
+@media screen and (max-width: 736px) {
+  #messaInp{
+    width: 86%;
+  }
+}
